@@ -225,6 +225,7 @@ int main(void)
         if (HAL_GPIO_ReadPin(GPIOA, GPIO_PIN_0) == GPIO_PIN_SET) 
         {
             printf("on\r\n");
+            printf("off\r\n");
             // 센서 HIGH
         } 
         else 
